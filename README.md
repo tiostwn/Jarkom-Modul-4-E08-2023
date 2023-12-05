@@ -6,6 +6,32 @@
 | 1 | Samuel Berkat Hulu | 5025201055 |
 | 2 | Hanafi Satriyo Utomo Setiawan | 5025211195 |
 
+| Nama Subnet | Rute                                    | Jumlah IP | Netmask |
+|-------------|-----------------------------------------|-----------|---------|
+| A1          | Fern-Switch4-AppetitRegion-LaubHills    | 1023      | /21     |
+| A2          | Frieren-Switch3-Lakekorridor            | 25        | /27     |
+| A3          | Fern-Flamme                             | 2         | /30     |
+| A4          | Flamme-Switch5-RohrRoad                 | 1001      | /22     |
+| A5          | Flamme-Frieren                          | 2         | /30     |
+| A6          | Frieren-Aura                            | 2         | /30     |
+| A7          | Aura-Denken                             | 2         | /30     |
+| A8          | Denken-Switch2-RoyalCapital-WilleRegion | 127       | /24     |
+| A9          | Himmel-Switch6-SchwerMountains          | 6         | /29     |
+| A10         | Himmel-Flamme                           | 2         | /30     |
+| A11         | Eisen-Switch1-Richter-Revolte           | 3         | /29     |
+| A12         | Aura-Eisen                              | 2         | /30     |
+| A13         | Eisen-Switch0-Stark                     | 2         | /30     |
+| A14         | Eisen-Lugner                            | 2         | /30     |
+| A15         | Lugner-Switch10-TurkRegion              | 1001      | /22     |
+| A16         | Lugner-Switch9-GrobeForest              | 251       | /24     |
+| A17         | Eisen-Linie                             | 2         | /30     |
+| A18         | Lawine-Heiter-Switch7-BredtRegion       | 31        | /26     |
+| A19         | Lawine-Linie                            | 2         | /30     |
+| A20         | Haiter-Switch8-Sein-RiegelCanyon        | 512       | /22     |
+| A21         | Linie-Switch11-GranzChannel             | 255       | /23     |
+| Total       | 4255                                    | /19       |
+
+
 
 # CIDR
 ### Penggabungan - CIDR
