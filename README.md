@@ -6,6 +6,9 @@
 | 1 | Samuel Berkat Hulu | 5025201055 |
 | 2 | Hanafi Satriyo Utomo Setiawan | 5025211195 |
 
+## Rute
+Hasil dari `rute` yang kami dapatkan adalah sebagai berikut
+
 | Nama Subnet | Rute                                    | Jumlah IP | Netmask |
 |-------------|-----------------------------------------|-----------|---------|
 | A1          | Fern-Switch4-AppetitRegion-LaubHills    | 1023      | /21     |
@@ -33,7 +36,7 @@
 
 
 
-# CIDR
+## CIDR
 ### Penggabungan - CIDR
 ![Slide 16_9 - 1](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/e3da187f-4193-458f-9ddf-e50a2b8943b7)
 
