@@ -190,36 +190,28 @@
 </thead>
 <tbody>
   <tr>
-    <td>D1</td>
-    <td>C1</td>
-    <td>/20</td>
-    <td>A21</td>
-    <td>/23</td>
-    <td>/19</td>
+    <td>E1</td>
+    <td>D2</td>
+    <td>/18</td>
+    <td>A3</td>
+    <td>/30</td>
+    <td>/17</td>
   </tr>
   <tr>
-    <td>D2</td>
-    <td>C2</td>
+    <td>E2</td>
+    <td>D1</td>
     <td>/19</td>
-    <td>B2</td>
-    <td>/21</td>
+    <td>A17</td>
+    <td>/30</td>
     <td>/18</td>
   </tr>
   <tr>
+    <td>E3</td>
+    <td>A13</td>
+    <td>/30</td>
     <td>D3</td>
-    <td>C3</td>
-    <td>/21</td>
-    <td>A14</td>
-    <td>/30</td>
     <td>/20</td>
-  </tr>
-  <tr>
-    <td>D4</td>
-    <td>A9</td>
-    <td>/30</td>
-    <td>A10</td>
-    <td>/24</td>
-    <td>/23</td>
+    <td>/19</td>
   </tr>
 </tbody>
 </table>
@@ -269,16 +261,124 @@
 ![Slide 16_9 - 11](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/229780f7-fc71-4ff7-95ce-a03d6e8d9abb)
 
 ### Penggabungan VI
+
+<table>
+<thead>
+  <tr>
+    <th rowspan="3">Subnet</th>
+    <th colspan="4">Gabungan dari</th>
+    <th rowspan="3">Netmask Akhir</th>
+  </tr>
+  <tr>
+    <th colspan="2">1</th>
+    <th colspan="2">2</th>
+  </tr>
+  <tr>
+    <th>Subnet</th>
+    <th>Netmask</th>
+    <th>Subnet</th>
+    <th>Netmask</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>G1</td>
+    <td>F1</td>
+    <td>/16</td>
+    <td>A1</td>
+    <td>/30</td>
+    <td>/15</td>
+  </tr>
+  <tr>
+    <td>G2</td>
+    <td>F2</td>
+    <td>/17</td>
+    <td>E3</td>
+    <td>/19</td>
+    <td>/16</td>
+  </tr>
+</tbody>
+</table>
+
 ![Slide 16_9 - 12](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/ddf26ed5-3733-4629-805f-90ab1b20e09d)
 
 ### Penggabungan VII
+<table>
+<thead>
+  <tr>
+    <th rowspan="3">Subnet</th>
+    <th colspan="4">Gabungan dari</th>
+    <th rowspan="3">Netmask Akhir</th>
+  </tr>
+  <tr>
+    <th colspan="2">1</th>
+    <th colspan="2">2</th>
+  </tr>
+  <tr>
+    <th>Subnet</th>
+    <th>Netmask</th>
+    <th>Subnet</th>
+    <th>Netmask</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>H1</td>
+    <td>G1</td>
+    <td>/15</td>
+    <td>D4</td>
+    <td>/23</td>
+    <td>/14</td>
+  </tr>
+  <tr>
+    <td>H2</td>
+    <td>A11</td>
+    <td>/30</td>
+    <td>G2</td>
+    <td>/16</td>
+    <td>/15</td>
+  </tr>
+</tbody>
+</table>
+
 ![Slide 16_9 - 13](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/7083cc54-0af4-409f-be9b-8dbaea6ebfac)
 
 ### Penggabungan VIII
+
+<table>
+<thead>
+  <tr>
+    <th rowspan="3">Subnet</th>
+    <th colspan="4">Gabungan dari</th>
+    <th rowspan="3">Netmask Akhir</th>
+  </tr>
+  <tr>
+    <th colspan="2">1</th>
+    <th colspan="2">2</th>
+  </tr>
+  <tr>
+    <th>Subnet</th>
+    <th>Netmask</th>
+    <th>Subnet</th>
+    <th>Netmask</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>I1</td>
+    <td>H1</td>
+    <td>/14</td>
+    <td>H2</td>
+    <td>/15</td>
+    <td>/13</td>
+  </tr>
+</tbody>
+</table>
+
 ![Slide 16_9 - 14](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/c0aeb31c-2ffa-4647-9ec4-1de073fb0405)
 
+### Pembagian IP
 ![CIDR TREE](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/54890b53-f059-4120-ae0e-dece7aa201d9)
-
 
 Subnet | Network ID | Netmask | Broadcast
 --- | --- | --- | --- 
