@@ -10,7 +10,8 @@
 # CIDR
 ![Slide 16_9 - 1](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/e3da187f-4193-458f-9ddf-e50a2b8943b7)
 
-##Penggabungan I
+## Penggabungan I
+
 <table>
 <thead>
   <tr>
