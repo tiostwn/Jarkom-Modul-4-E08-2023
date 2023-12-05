@@ -7,6 +7,7 @@
 | 2 | Hanafi Satriyo Utomo Setiawan | 5025211195 |
 
 ## Rute
+
 Hasil dari `rute` yang kami dapatkan adalah sebagai berikut
 
 | Nama Subnet | Rute                                    | Jumlah IP | Netmask |
