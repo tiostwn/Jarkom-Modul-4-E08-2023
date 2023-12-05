@@ -38,6 +38,7 @@ Hasil dari `rute` yang kami dapatkan adalah sebagai berikut
 
 
 ## CIDR
+
 CIDR atau biasa dikenal *Classless Inter-Domain* Routing adalah suatu metode ``pengalamatan dan pengelompokan alamat IP`` yang memungkinkan penggunaan lebih efisien dari ruang alamat IP yang tersedia di Internet. Sebelum diperkenalkannya ``CIDR``, pengalamatan IP didasarkan pada kelas-kelas, seperti ``kelas A, kelas B, dan kelas C``. Setiap kelas memiliki ``ukuran tetap`` untuk jaringan dan host, yang seringkali mengakibatkan pemborosan alamat IP. 
 
 **CIDR** menggantikan ``pendekatan kelas`` dengan memperkenalkan notasi format baru yang memungkinkan ``fleksibilitas`` lebih besar dalam pengelompokan dan alokasi alamat IP. Format notasi CIDR terdiri dari alamat IP dan prefiks (subnet mask) yang diwakili dalam ``format bilangan biner``, seperti contoh berikut:
@@ -51,12 +52,15 @@ Dalam contoh ini, ``"192.210.0.0"`` adalah alamat jaringan, dan ``"/24"`` menunj
 CIDR juga ``mendukung agregasi rute``, yang memungkinkan penyederhanaan tabel routing di Internet. Dengan ``menggabungkan beberapa blok alamat IP ke dalam satu entri routing``, CIDR membantu mengurangi ukuran tabel routing dan efektif meningkatkan efisiensi dalam pengelolaan lalu lintas jaringan global.
 
 ### Penggabungan IP
+
 Berikut merupakan inisialisasi kami yang akan digunakan untuk melakukan penggabungan IP
 
 #### Kondisi Node Awal
+
 ![Slide 16_9 - 1](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/e3da187f-4193-458f-9ddf-e50a2b8943b7)
 
 #### Penggabungan I
+
 <table><thead><tr><th rowspan="3">Subnet</th><th colspan="4">Gabungan dari</th><th rowspan="3">Netmask Akhir</th></tr><tr><th colspan="2">1</th><th colspan="2">2</th></tr><tr><th>Subnet</th><th>Netmask</th><th>Subnet</th><th>Netmask</th></tr></thead><tbody><tr><td>B1</td><td>A18</td><td>/26</td><td>A20</td><td>/22</td><td>/21</td></tr><tr><td>B2</td><td>A9</td><td>/29</td><td>A10</td><td>/22</td><td>/21</td></tr><tr><td>B3</td><td>A1</td><td>/21</td><td>A3</td><td>/30</td><td>/20</td></tr></tbody></table>
 
 ![Slide 16_9 - 2](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/4e01c192-a1f3-4ea2-9910-d7adc6a84215)
