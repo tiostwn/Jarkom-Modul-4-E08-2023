@@ -8,10 +8,10 @@
 
 
 # CIDR
+### Penggabungan - CIDR
 ![Slide 16_9 - 1](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/e3da187f-4193-458f-9ddf-e50a2b8943b7)
 
-## Penggabungan I
-
+### Penggabungan I
 <table>
 <thead>
   <tr>
@@ -59,6 +59,54 @@
 </table>
 
 ![Slide 16_9 - 2](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/4e01c192-a1f3-4ea2-9910-d7adc6a84215)
+
+### Penggabungan II
+<table>
+<thead>
+  <tr>
+    <th rowspan="3">Subnet</th>
+    <th colspan="4">Gabungan dari</th>
+    <th rowspan="3">Netmask Akhir</th>
+  </tr>
+  <tr>
+    <th colspan="2">1</th>
+    <th colspan="2">2</th>
+  </tr>
+  <tr>
+    <th>Subnet</th>
+    <th>Netmask</th>
+    <th>Subnet</th>
+    <th>Netmask</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>C1</td>
+    <td>B1</td>
+    <td>/21</td>
+    <td>A19</td>
+    <td>/30</td>
+    <td>/20</td>
+  </tr>
+  <tr>
+    <td>C2</td>
+    <td>B3</td>
+    <td>/20</td>
+    <td>A6</td>
+    <td>/22</td>
+    <td>/19</td>
+  </tr>
+  <tr>
+    <td>C3</td>
+    <td>A15</td>
+    <td>/22</td>
+    <td>A16</td>
+    <td>/24</td>
+    <td>/21</td>
+  </tr>
+</tbody>
+</table>
+
 ![Slide 16_9 - 3](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/9d8ceab3-7c62-4c6b-8c64-bfa9ec01869e)
 ![Slide 16_9 - 9](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/065b1e05-0906-49b3-b934-f231f372e064)
 ![Slide 16_9 - 10](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/533ea34c-e3e1-48ca-9eca-207ed525f8e6)
