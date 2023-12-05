@@ -6,10 +6,51 @@
 | 1 | Samuel Berkat Hulu | 5025201055 |
 | 2 | Hanafi Satriyo Utomo Setiawan | 5025211195 |
 
-| Subnet | Gabungan Dari | Netmask Akhir |
-| --- | --- | --- | --- |
-| 1 | Samuel Berkat Hulu | 5025201055 |
-| 2 | Hanafi Satriyo Utomo Setiawan | 5025211195 |
+<table>
+<thead>
+  <tr>
+    <th rowspan="3">Subnet</th>
+    <th colspan="4">Gabungan dari</th>
+    <th rowspan="3">Netmask Akhir</th>
+  </tr>
+  <tr>
+    <th colspan="2">1</th>
+    <th colspan="2">2</th>
+  </tr>
+  <tr>
+    <th>Subnet</th>
+    <th>Netmask</th>
+    <th>Subnet</th>
+    <th>Netmask</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>B1</td>
+    <td>A20</td>
+    <td>/26</td>
+    <td>A21</td>
+    <td>/22</td>
+    <td>/21</td>
+  </tr>
+  <tr>
+    <td>B2</td>
+    <td>A8</td>
+    <td>/29</td>
+    <td>A7</td>
+    <td>/30</td>
+    <td>/28</td>
+  </tr>
+  <tr>
+    <td>B3</td>
+    <td>A5</td>
+    <td>/21</td>
+    <td>A4</td>
+    <td>/30</td>
+    <td>/20</td>
+  </tr>
+</tbody>
+</table>
 
 ![Slide 16_9 - 1](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/e3da187f-4193-458f-9ddf-e50a2b8943b7)
 ![Slide 16_9 - 2](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/4e01c192-a1f3-4ea2-9910-d7adc6a84215)
