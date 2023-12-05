@@ -61,6 +61,7 @@
 ![Slide 16_9 - 2](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/4e01c192-a1f3-4ea2-9910-d7adc6a84215)
 
 ### Penggabungan II
+
 <table>
 <thead>
   <tr>
