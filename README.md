@@ -51,17 +51,17 @@ Dalam contoh ini, ``"192.210.0.0"`` adalah alamat jaringan, dan ``"/24"`` menunj
 CIDR juga ``mendukung agregasi rute``, yang memungkinkan penyederhanaan tabel routing di Internet. Dengan ``menggabungkan beberapa blok alamat IP ke dalam satu entri routing``, CIDR membantu mengurangi ukuran tabel routing dan efektif meningkatkan efisiensi dalam pengelolaan lalu lintas jaringan global.
 
 ### Penggabungan IP
-
-### Kondisi Node Awal
 Berikut merupakan inisialisasi kami yang akan digunakan untuk melakukan penggabungan IP
+
+#### Kondisi Node Awal
 ![Slide 16_9 - 1](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/e3da187f-4193-458f-9ddf-e50a2b8943b7)
 
-### Penggabungan I
+#### Penggabungan I
 <table><thead><tr><th rowspan="3">Subnet</th><th colspan="4">Gabungan dari</th><th rowspan="3">Netmask Akhir</th></tr><tr><th colspan="2">1</th><th colspan="2">2</th></tr><tr><th>Subnet</th><th>Netmask</th><th>Subnet</th><th>Netmask</th></tr></thead><tbody><tr><td>B1</td><td>A18</td><td>/26</td><td>A20</td><td>/22</td><td>/21</td></tr><tr><td>B2</td><td>A9</td><td>/29</td><td>A10</td><td>/22</td><td>/21</td></tr><tr><td>B3</td><td>A1</td><td>/21</td><td>A3</td><td>/30</td><td>/20</td></tr></tbody></table>
 
 ![Slide 16_9 - 2](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/4e01c192-a1f3-4ea2-9910-d7adc6a84215)
 
-### Penggabungan II
+#### Penggabungan II
 
 <table>
 <thead>
@@ -111,7 +111,7 @@ Berikut merupakan inisialisasi kami yang akan digunakan untuk melakukan penggabu
 
 ![Slide 16_9 - 3](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/9d8ceab3-7c62-4c6b-8c64-bfa9ec01869e)
 
-### Penggabungan III
+#### Penggabungan III
 
 <table>
 <thead>
@@ -169,7 +169,7 @@ Berikut merupakan inisialisasi kami yang akan digunakan untuk melakukan penggabu
 
 ![Slide 16_9 - 9](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/065b1e05-0906-49b3-b934-f231f372e064)
 
-### Penggabungan IV
+#### Penggabungan IV
 
 <table>
 <thead>
@@ -219,7 +219,7 @@ Berikut merupakan inisialisasi kami yang akan digunakan untuk melakukan penggabu
 
 ![Slide 16_9 - 10](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/533ea34c-e3e1-48ca-9eca-207ed525f8e6)
 
-### Penggabungan V
+#### Penggabungan V
 
 <table>
 <thead>
@@ -261,7 +261,7 @@ Berikut merupakan inisialisasi kami yang akan digunakan untuk melakukan penggabu
 
 ![Slide 16_9 - 11](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/229780f7-fc71-4ff7-95ce-a03d6e8d9abb)
 
-### Penggabungan VI
+#### Penggabungan VI
 
 <table>
 <thead>
@@ -303,7 +303,7 @@ Berikut merupakan inisialisasi kami yang akan digunakan untuk melakukan penggabu
 
 ![Slide 16_9 - 12](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/ddf26ed5-3733-4629-805f-90ab1b20e09d)
 
-### Penggabungan VII
+#### Penggabungan VII
 <table>
 <thead>
   <tr>
@@ -344,7 +344,7 @@ Berikut merupakan inisialisasi kami yang akan digunakan untuk melakukan penggabu
 
 ![Slide 16_9 - 13](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/7083cc54-0af4-409f-be9b-8dbaea6ebfac)
 
-### Penggabungan VIII
+#### Penggabungan VIII
 
 <table>
 <thead>
