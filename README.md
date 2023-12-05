@@ -1,5 +1,11 @@
 # Jarkom-Modul-4-E08-2023
 
+**Anggota Kelompok ``E08`` ``192.210``** 
+| No | Nama | NRP |
+| --- | --- | --- |
+| 1 | Samuel Berkat Hulu | 5025201055 |
+| 2 | Hanafi Satriyo Utomo Setiawan | 5025211195 |
+
 ![Slide 16_9 - 1](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/e3da187f-4193-458f-9ddf-e50a2b8943b7)
 ![Slide 16_9 - 2](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/4e01c192-a1f3-4ea2-9910-d7adc6a84215)
 ![Slide 16_9 - 3](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/9d8ceab3-7c62-4c6b-8c64-bfa9ec01869e)
