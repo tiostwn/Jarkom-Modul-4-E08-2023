@@ -109,11 +109,80 @@
 </table>
 
 ![Slide 16_9 - 3](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/9d8ceab3-7c62-4c6b-8c64-bfa9ec01869e)
+
+### Penggabungan III
+
+<table>
+<thead>
+  <tr>
+    <th rowspan="3">Subnet</th>
+    <th colspan="4">Gabungan dari</th>
+    <th rowspan="3">Netmask Akhir</th>
+  </tr>
+  <tr>
+    <th colspan="2">1</th>
+    <th colspan="2">2</th>
+  </tr>
+  <tr>
+    <th>Subnet</th>
+    <th>Netmask</th>
+    <th>Subnet</th>
+    <th>Netmask</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>D1</td>
+    <td>C1</td>
+    <td>/20</td>
+    <td>A21</td>
+    <td>/23</td>
+    <td>/19</td>
+  </tr>
+  <tr>
+    <td>D2</td>
+    <td>C2</td>
+    <td>/19</td>
+    <td>B2</td>
+    <td>/21</td>
+    <td>/18</td>
+  </tr>
+  <tr>
+    <td>D3</td>
+    <td>C3</td>
+    <td>/21</td>
+    <td>A14</td>
+    <td>/30</td>
+    <td>/20</td>
+  </tr>
+  <tr>
+    <td>D4</td>
+    <td>A9</td>
+    <td>/30</td>
+    <td>A10</td>
+    <td>/24</td>
+    <td>/23</td>
+  </tr>
+</tbody>
+</table>
+
 ![Slide 16_9 - 9](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/065b1e05-0906-49b3-b934-f231f372e064)
+
+### Penggabungan IV
+
+
 ![Slide 16_9 - 10](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/533ea34c-e3e1-48ca-9eca-207ed525f8e6)
+
+### Penggabungan V
 ![Slide 16_9 - 11](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/229780f7-fc71-4ff7-95ce-a03d6e8d9abb)
+
+### Penggabungan VI
 ![Slide 16_9 - 12](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/ddf26ed5-3733-4629-805f-90ab1b20e09d)
+
+### Penggabungan VII
 ![Slide 16_9 - 13](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/7083cc54-0af4-409f-be9b-8dbaea6ebfac)
+
+### Penggabungan VIII
 ![Slide 16_9 - 14](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/c0aeb31c-2ffa-4647-9ec4-1de073fb0405)
 
 ![CIDR TREE](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/54890b53-f059-4120-ae0e-dece7aa201d9)
