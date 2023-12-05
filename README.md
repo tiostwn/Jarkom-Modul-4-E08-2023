@@ -29,7 +29,7 @@
 | A19         | Lawine-Linie                            | 2         | /30     |
 | A20         | Haiter-Switch8-Sein-RiegelCanyon        | 512       | /22     |
 | A21         | Linie-Switch11-GranzChannel             | 255       | /23     |
-| Total       | 4255                                    | /19       
+| Total       | 4255                                    | -         | /19     |
 
 
 
