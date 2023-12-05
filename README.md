@@ -363,9 +363,15 @@ Hasil dari `rute` yang kami dapatkan adalah sebagai berikut
 
 ![Slide 16_9 - 14](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/c0aeb31c-2ffa-4647-9ec4-1de073fb0405)
 
-### Pembagian IP
+### Tree
+
+Setelah dilakukannya penggabungan IP, sekarang kita melakukan pembagian IP dengan menggunakan tree pada masing-masing kelompok yang telah dibuat sebelumnya sebagai berikut
 
 ![CIDR TREE](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/54890b53-f059-4120-ae0e-dece7aa201d9)
+
+### Pembagian IP
+
+Berikut merupakan hasil dari pembagian IP berdasarkan Tree yang telah dibuat sebelumnya
 
 Subnet | Network ID | Netmask | Broadcast
 --- | --- | --- | --- 
