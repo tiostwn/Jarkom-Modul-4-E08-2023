@@ -6,6 +6,8 @@
 | 1 | Samuel Berkat Hulu | 5025201055 |
 | 2 | Hanafi Satriyo Utomo Setiawan | 5025211195 |
 
+Disini kami mengimplementasikan `CIDR` dengan menggunakan `GNS3` dan `VLSM` dengan menggunakan `Cisco` 
+
 ## Rute
 
 Hasil dari `rute` yang kami dapatkan adalah sebagai berikut
