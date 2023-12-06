@@ -418,7 +418,7 @@ A21 | 192.214.16.0/23 | 255.255.254.0 | 192.214.17.255
 
 
 
-## VLSM (Variable Length Subnet Masking)
+### VLSM (Variable Length Subnet Masking)
 VLSM adalah untuk mengefisienkan pembagian IP di dalam jaringan. Besar netmask disesuaikan dengan banyaknya komputer/ host yang membutuhkan alamat IP. ``Jadi, pada teknik VLSM, subnet mask (netmask) akan diberikan sesuai dengan kebutuhan jumlah alamat IP dari subnet tersebut.``
 
 Hasil dari ``Rute`` adalah seperti berikut : 
@@ -450,12 +450,12 @@ Hasil dari ``Rute`` adalah seperti berikut :
 
 Berdasarkan total Jumlah IP ``4255`` dan netmask yang dibutuhkan ``/19``, maka kita dapat menggunakan netmask /19 untuk memberikan pengalamatan IP pada subnet.
 
-## Tree
+### Tree
 Prefix ip dari kelompok E08 adalah ``192.210`` jadi NID  yang digunakan pada perhitungan tree yiatu ``NID 192.210.1.0`` dengan netmask /19. kemudian lakukan perhitungan  NID dan netmask tersebut menggunakan pohon seperti gambar di bawah.
 
 ![Untitled](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/100474007/06bb6d3b-a180-42ef-a738-bbb03fafcd80)
 
-# Pembagian IP
+### Pembagian IP
 Berikut merupakan hasil dari pembagian IP berdasarkan Tree yang telah dibuat sebelumnya
 
 | Subnet | Network ID    | Netmask       | Broadcast    |
