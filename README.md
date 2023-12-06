@@ -416,6 +416,105 @@ A19 | 192.214.8.0/30 | 255.255.255.252 | 192.214.8.3
 A20 | 192.214.0.0/22 | 255.255.252.0 | 192.214.3.255
 A21 | 192.214.16.0/23 | 255.255.254.0 | 192.214.17.255 
 
+### Routing
+#### Aura
+```R
+route add -net 192.211.0.0 netmask 255.255.255.252 gw 192.211.0.2 #A1
+route add -net 192.210.128.0 netmask 255.255.255.224 gw 192.211.0.2 #A2
+route add -net 192.210.64.0 netmask 255.255.255.252 gw 192.211.0.2 #3
+route add -net 192.210.8.0 netmask 255.255.255.252 gw 192.211.0.2 #4
+route add -net 192.210.0.0 netmask 255.255.248.0 gw 192.211.0.2 #5
+route add -net 192.210.16.0 netmask 255.255.252.0 gw 192.211.0.2 #6
+route add -net 192.210.32.8 netmask 255.255.255.252 gw 192.211.0.2 #7
+route add -net 192.210.32.0 netmask 255.255.255.248 gw 192.211.0.2 #8
+
+route add -net 192.212.1.0 netmask 255.255.255.252 gw 192.212.1.2 #A9
+route add -net 192.212.0.0 netmask 255.255.255.0 gw 192.212.1.2 #A10
+
+route add -net 192.215.0.0 netmask 255.255.255.252 gw 192.215.0.2 #A11
+route add -net 192.214.64.0 netmask 255.255.255.248 gw 192.215.0.2 #A12
+route add -net 192.214.144.0 netmask 255.255.255.252 gw 192.215.0.2 #A13
+route add -net 192.214.136.0 netmask 255.255.255.252 gw 192.215.0.2 #A14
+route add -net 192.214.128.0 netmask 255.255.252.0 gw 192.215.0.2 #A15
+route add -net 192.214.132.0 netmask 255.255.255.0 gw 192.215.0.2 #A16
+route add -net 192.214.32.0 netmask 255.255.255.252 gw 192.215.0.2 #A17
+route add -net 192.214.16.0 netmask 255.255.254.0 gw 192.215.0.2 #A18
+route add -net 192.214.8.0 netmask 255.255.255.252 gw 192.215.0.2 #A19
+route add -net 192.214.4.0 netmask 255.255.255.192 gw 192.215.0.2 #A20
+route add -net 192.214.0.0 netmask 255.255.252.0 gw 192.215.0.2 #A21
+```
+
+#### Eisen
+```R
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.215.0.1 
+route add -net 192.214.136.0 netmask 255.255.255.252 gw 192.214.136.2 #A14
+route add -net 192.214.128.0 netmask 255.255.252.0 gw 192.214.136.2 #A15
+route add -net 192.214.132.0 netmask 255.255.255.0 gw 192.214.136.2 #A16
+route add -net 192.214.32.0 netmask 255.255.255.252 gw 192.214.32.2 #A17
+route add -net 192.214.16.0 netmask 255.255.254.0 gw 192.214.32.2 #A18
+route add -net 192.214.8.0 netmask 255.255.255.252 gw 192.214.32.2 #A19
+route add -net 192.214.4.0 netmask 255.255.255.192 gw 192.214.32.2 #A20
+route add -net 192.214.0.0 netmask 255.255.252.0 gw 192.214.32.2 #A21
+```
+
+#### Frieren
+```R
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.211.0.1 #default
+route add -net 192.210.0.0 netmask 255.255.248.0 gw 192.210.64.2 #A5
+route add -net 192.210.8.0 netmask 255.255.255.252 gw 192.210.64.2 #A4
+route add -net 192.210.16.0 netmask 255.255.252.0 gw 192.210.64.2 #A6
+route add -net 192.210.32.0 netmask 255.255.255.248 gw 192.210.64.2 #A8
+route add -net 192.210.32.8 netmask 255.255.255.252 gw 192.210.64.2 #A7
+```
+
+#### Flamme
+```R
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.210.64.1 #default
+route add -net 192.210.8.0 netmask 255.255.255.252 gw 192.210.8.2 #A4
+route add -net 192.210.0.0 netmask 255.255.248.0 gw 192.210.8.2 #A5
+route add -net 192.210.32.8 netmask 255.255.255.252 gw 192.210.32.10 #A7
+route add -net 192.210.32.0 netmask 255.255.255.248 gw 192.210.32.10 #A8
+```
+
+#### Linie
+```R
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.214.32.1 
+route add -net 192.214.8.0 netmask 255.255.255.252 gw 192.214.8.2 #A19
+route add -net 192.214.4.0 netmask 255.255.255.192 gw 192.214.8.2 #A20
+route add -net 192.214.0.0 netmask 255.255.252.0 gw 192.214.8.2 #A21
+```
+
+#### Lawine
+```R
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.214.8.1 
+route add -net 192.214.4.0 netmask 255.255.255.192 gw 192.214.4.3 #A20
+route add -net 192.214.0.0 netmask 255.255.252.0 gw 192.214.4.3 #A21
+```
+
+#### Heiter
+```R
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.214.4.1 
+```
+
+#### Lugner
+```R
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.214.136.1 
+```
+
+#### Denken
+```R
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.212.1.1
+```
+
+#### Fern
+```R
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.210.8.1 #default
+```
+
+#### Himmel
+```R
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.210.32.9 #default
+```
 
 
 ### VLSM (Variable Length Subnet Masking)
