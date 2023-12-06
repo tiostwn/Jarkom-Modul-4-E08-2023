@@ -421,6 +421,10 @@ A21 | 192.214.16.0/23 | 255.255.254.0 | 192.214.17.255
 ### VLSM (Variable Length Subnet Masking)
 VLSM adalah untuk mengefisienkan pembagian IP di dalam jaringan. Besar netmask disesuaikan dengan banyaknya komputer/ host yang membutuhkan alamat IP. ``Jadi, pada teknik VLSM, subnet mask (netmask) akan diberikan sesuai dengan kebutuhan jumlah alamat IP dari subnet tersebut.``
 
+Gambar Topologi pada Cisco
+![topologi](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/100474007/7f683a48-0dd0-4261-87a8-1a4f3c054eaf)
+
+
 Hasil dari ``Rute`` adalah seperti berikut : 
 
 | Nama Subnet | Rute                                    | Jumlah IP | Netmask |
