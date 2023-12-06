@@ -453,4 +453,6 @@ Berdasarkan total Jumlah IP ``4255`` dan netmask yang dibutuhkan ``/19``, maka k
 ## Tree
 Prefix ip dari kelompok E08 adalah ``192.210`` jadi NID  yang digunakan pada perhitungan tree yiatu ``NID 192.210.1.0`` dengan netmask /19. kemudian lakukan perhitungan  NID dan netmask tersebut menggunakan pohon seperti gambar di bawah.
 
+![Untitled](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/100474007/06bb6d3b-a180-42ef-a738-bbb03fafcd80)
+
 
