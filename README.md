@@ -417,3 +417,40 @@ A20 | 192.214.0.0/22 | 255.255.252.0 | 192.214.3.255
 A21 | 192.214.16.0/23 | 255.255.254.0 | 192.214.17.255 
 
 
+
+## VLSM (Variable Length Subnet Masking)
+VLSM adalah untuk mengefisienkan pembagian IP di dalam jaringan. Besar netmask disesuaikan dengan banyaknya komputer/ host yang membutuhkan alamat IP. ``Jadi, pada teknik VLSM, subnet mask (netmask) akan diberikan sesuai dengan kebutuhan jumlah alamat IP dari subnet tersebut.``
+
+Hasil dari ``Rute`` adalah seperti berikut : 
+
+| Nama Subnet | Rute                                    | Jumlah IP | Netmask |
+|-------------|-----------------------------------------|-----------|---------|
+| A1          | Fern-Switch4-AppetitRegion-LaubHills    | 1023      | /21     |
+| A2          | Frieren-Switch3-Lakekorridor            | 25        | /27     |
+| A3          | Fern-Flamme                             | 2         | /30     |
+| A4          | Flamme-Switch5-RohrRoad                 | 1001      | /22     |
+| A5          | Flamme-Frieren                          | 2         | /30     |
+| A6          | Frieren-Aura                            | 2         | /30     |
+| A7          | Aura-Denken                             | 2         | /30     |
+| A8          | Denken-Switch2-RoyalCapital-WilleRegion | 127       | /24     |
+| A9          | Himmel-Switch6-SchwerMountains          | 6         | /29     |
+| A10         | Himmel-Flamme                           | 2         | /30     |
+| A11         | Eisen-Switch1-Richter-Revolte           | 3         | /29     |
+| A12         | Aura-Eisen                              | 2         | /30     |
+| A13         | Eisen-Switch0-Stark                     | 2         | /30     |
+| A14         | Eisen-Lugner                            | 2         | /30     |
+| A15         | Lugner-Switch10-TurkRegion              | 1001      | /22     |
+| A16         | Lugner-Switch9-GrobeForest              | 251       | /24     |
+| A17         | Eisen-Linie                             | 2         | /30     |
+| A18         | Lawine-Heiter-Switch7-BredtRegion       | 31        | /26     |
+| A19         | Lawine-Linie                            | 2         | /30     |
+| A20         | Haiter-Switch8-Sein-RiegelCanyon        | 512       | /22     |
+| A21         | Linie-Switch11-GranzChannel             | 255       | /23     |
+| Total       | -                                       | 4255      | /19     |
+
+Berdasarkan total Jumlah IP ``4255`` dan netmask yang dibutuhkan ``/19``, maka kita dapat menggunakan netmask /19 untuk memberikan pengalamatan IP pada subnet.
+
+## Tree
+Prefix ip dari kelompok E08 adalah ``192.210`` jadi NID  yang digunakan pada perhitungan tree yiatu ``NID 192.210.1.0`` dengan netmask /19. kemudian lakukan perhitungan  NID dan netmask tersebut menggunakan pohon seperti gambar di bawah.
+
+
