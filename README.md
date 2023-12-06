@@ -106,6 +106,7 @@ Berikut merupakan inisialisasi kami yang akan digunakan untuk melakukan penggabu
 #### Penggabungan VIII
 
 <table><thead><tr><th rowspan="3">Subnet</th><th colspan="4">Gabungan dari</th><th rowspan="3">Netmask Akhir</th></tr><tr><th colspan="2">1</th><th colspan="2">2</th></tr><tr><th>Subnet</th><th>Netmask</th><th>Subnet</th><th>Netmask</th></tr></thead><tbody><tr><td>I1</td><td>H1</td><td>/14</td><td>H2</td><td>/15</td><td>/13</td></tr></tbody></table>
+
 ![Slide 16_9 - 14](https://github.com/tiostwn/Jarkom-Modul-4-E08-2023/assets/53292102/c0aeb31c-2ffa-4647-9ec4-1de073fb0405)
 
 ### Tree
